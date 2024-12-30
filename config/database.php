@@ -2,9 +2,9 @@
 class Database {
     private $host = "localhost";
     private $port = "3306"; 
-    private $db_name = "sembako_db";
-    private $username = "root";
-    private $password = "";
+    private $db_name = "lpykjubb_ekiks_site";
+    private $username = "lpykjubb_admin";
+    private $password = "ekiks.site";
     public $conn;
 
     public function getConnection() {
