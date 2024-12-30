@@ -1,0 +1,120 @@
+/* assets/css/style.css */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f5f5f5;
+  }
+  
+  .container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 20px;
+  }
+  
+  .btn {
+    display: inline-block;
+    padding: 8px 16px;
+    border: none;
+    border-radius: 4px;
+    text-decoration: none;
+    cursor: pointer;
+  }
+  
+  .btn-primary {
+    background-color: #007bff;
+    color: #fff;
+  }
+  
+  .btn-secondary {
+    background-color: #6c757d;
+    color: #fff;
+  }
+  
+  table {
+    width: 100%;
+    border-collapse: collapse;
+    background-color: #fff;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  }
+  
+  th, td {
+    padding: 10px;
+    text-align: left;
+    border-bottom: 1px solid #ddd;
+  }
+  
+  th {
+    background-color: #f2f2f2;
+  }
+  /* Footer Styles */
+.footer {
+  background-color: #343a40; /* Latar belakang gelap */
+  color: #ffffff; /* Warna teks putih */
+  padding: 40px 0; /* Padding vertikal */
+}
+
+/* Tautan di footer */
+.footer a {
+  color: #ffffff; /* Warna tautan putih */
+  text-decoration: none; /* Menghilangkan garis bawah */
+  transition: color 0.3s ease; /* Transisi warna */
+}
+
+/* Efek hover pada tautan */
+.footer a:hover {
+  color: #ffcc00; /* Warna saat hover */
+}
+
+/* Pengaturan untuk daftar tautan */
+.footer .list-inline {
+  margin-bottom: 0; /* Menghilangkan margin bawah pada daftar */
+}
+
+/* Gaya untuk ikon media sosial */
+.footer-social a {
+  margin: 0 10px; /* Jarak antar ikon sosial */
+}
+
+/* Gaya untuk informasi kontak */
+.footer-contact {
+  margin-top: 20px; /* Margin atas untuk jarak */
+}
+
+.footer-contact p {
+  margin: 0; /* Menghilangkan margin untuk keteraturan */
+}
+/* Menyesuaikan ukuran teks di footer */
+.footer-heading {
+    font-size: 1.2rem;
+}
+
+/* Responsif untuk layar kecil */
+@media (max-width: 768px) {
+    .footer .row {
+        flex-direction: column; /* Menyusun kolom menjadi satu kolom pada layar kecil */
+    }
+
+    .footer .col-md-4 {
+        text-align: center; /* Menyusun teks di tengah */
+        margin-bottom: 20px;
+    }
+
+    .footer-contact p, .footer-social a {
+        font-size: 1rem; /* Ukuran font sedikit lebih kecil */
+    }
+
+    .footer-social a {
+        font-size: 1.5rem; /* Menyesuaikan ukuran ikon sosial media */
+        margin: 10px 15px; /* Memberikan jarak antar ikon */
+    }
+}
+
+.footer-bottom p {
+    font-size: 0.9rem; /* Menyesuaikan ukuran font copyright */
+}
+
+/* Menambahkan jarak antara footer dan konten lainnya */
+body {
+    margin-bottom: 100px; /* Pastikan footer tidak tertutup oleh konten */
+}
+
+
